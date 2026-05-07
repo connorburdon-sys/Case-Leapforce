@@ -173,19 +173,20 @@ body {
 .cardText{
     color: rgba(250, 250, 250, 0.5);
     margin-top: 10px;
+    text-align: left;
 }
 
 .arrowBtn{
     background-color: transparent;
     border: 2px solid rgba( 255, 255, 255, 0.5);
-    display:flex;
+    display:inline-flex;
     align-items: center;
     justify-content: center;
     width: 60px;
     height: 60px;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 30%;
+    padding: 0;
 }
 
 .arrow2{
@@ -223,9 +224,6 @@ body {
         width: 47%;
     }
 
-    .arrowBtn {
-     margin-left:0%
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -244,6 +242,21 @@ body {
     .heading4 { font-size: 22px; line-height: 26px; }
 
     .cardText { font-size: 16px; line-height: 22px; }
-    
+
     .arrowBtn { right: 20px; bottom: 20px; width: 52px; height: 52px; }
+}
+
+@media screen and (max-width: 545px) {
+    .card {
+        height: 360px;
+        padding: 16px;
+    }
+
+    .label { font-size:14px; line-height: 16px; letter-spacing: 2%;}
+    .heading1 { font-size: 48px; line-height: 48px; letter-spacing: -3%;} 
+    .heading1Highlight { font-size: 50px; line-height: 48px; letter-spacing: -4%;}
+    .textLarge { font-size: 21px; line-height: 24px; letter-spacing: 0%;}
+    .heading4 { font-size: 23px; line-height: 24px; letter-spacing: -2%;}
+    .cardText { font-size: 21px; line-height: 24px; letter-spacing: 0%; }
+    .arrowBtn { right: 16px; bottom: 16px; width: 48px; height: 48px; }
 }
