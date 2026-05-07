@@ -97,6 +97,36 @@ body {
     margin-left: -12px;
 }
 
+.tertiaryCTA:hover .arrowLine {
+    transition: background-color 0.3s ease-in-out;
+    background-color: #BE3E13;
+}
+
+.tertiaryCTA:hover .arrowHead {
+  transition: border-color 0.3s  ease-in-out;
+  border-color: #BE3E13;
+}
+
+.tertiaryCTA:hover {
+  transition: color 0.3s ease-in-out;
+  color: #BE3E13;
+}
+
+.tertiaryCTA:focus .arrowLine {
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgba(89, 32, 27, 1);
+}
+
+.tertiaryCTA:focus .arrowHead {
+  transition: border-color 0.3s ease-in-out;
+  border-color: rgba(89, 32, 27, 1);
+}
+
+.tertiaryCTA:focus {
+  transition: color 0.3s ease-in-out;
+  color: rgba(89, 32, 27, 1);
+}
+
 .CTAcards{
     display:flex;
     flex-direction: row;
@@ -171,4 +201,14 @@ body {
 
 .cardArrowHead{
     border-color: white;
+}
+
+.arrowBtn:hover{
+    transition: border-color 0.3s ease-in-out;
+    border-color:rgba(27, 36, 38, 0.5) ;
+}
+
+.arrowBtn:focus{
+    transition: border-color 0.3s ease-in-out;
+    border-color:rgba(27, 36, 38, 0.8);
 }
