@@ -197,7 +197,7 @@ body {
 
 .cardArrowLine {
     background-color: white;
-    margin-left: -10px;
+    margin-left: -15px;
 }
 
 .cardArrowHead {
@@ -263,6 +263,6 @@ body {
     .heading4 { font-size: 23px; line-height: 24px; letter-spacing: -2%;}
 
     .cardText { font-size: 21px; line-height: 24px; letter-spacing: 0%; }
-    
+
     .arrowBtn { right: 16px; bottom: 16px; width: 48px; height: 48px; }
 }
